@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Make_it_Green.HomePage"
+             Title="HomePage">
+    <Grid>
+        <!-- Background Image -->
+        <Image Source="home_bg.png" Aspect="AspectFill" />
+    
+
+        <!-- Button Layout -->
+        <Grid >
+            <ImageButton 
+                Source="plastics_button.png"/>
+            <ImageButton 
+                Source="metals_button.png"/>
+            <ImageButton Source="glass_button.png"
+                          />
+            <ImageButton Source="electronics_button.png"
+                         />
+            <ImageButton Source="textiles_button.png"
+                          />
+            <ImageButton Source="paper_button.png"
+                          />
+        </Grid>
+    </Grid>
+</ContentPage>
