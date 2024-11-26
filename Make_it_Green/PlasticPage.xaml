@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Make_it_Green.PlasticPage"
+             Title="PlasticPage">
+    <Grid>
+
+    <!-- Background Image covering the entire page -->
+        <Image Source="plastics_bg.png" Aspect="AspectFill" />
+        
+        <Grid  Margin="195,355,10,10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="100"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="60"/>
+                <ColumnDefinition Width="60"/>
+                <ColumnDefinition Width="60"/>
+            </Grid.ColumnDefinitions>
+    <!--ปุ่มลบ-->
+            <Label 
+                Text="-"
+                FontSize="36"
+                TextColor="Black"
+                FontFamily="CloudSoftBold"
+                Grid.Row="0" Grid.Column="0"
+                >
+            <!-- TapGestureRecognizer to handle tap event -->
+            <Label.GestureRecognizers>
+                <TapGestureRecognizer Tapped="OnMinusTapped" />
+            </Label.GestureRecognizers>
+        </Label>
+
+            <!-- แสดงค่าปัจจุบัน -->
+            <Label 
+                Text="0" 
+                FontSize="18"
+                x:Name="StepperWeightLabel"
+                Grid.Row="0" Grid.Column="1"
+                VerticalTextAlignment="Start"/> 
+
+    <!-- ปุ่มบวก -->
+        <Label Text="+"
+               FontSize="30"
+               FontFamily="CloudSoftBold"
+               TextColor="Black"
+               Grid.Row="0" Grid.Column="2">
+               
+        <!-- TapGestureRecognizer to handle tap event -->
+        <Label.GestureRecognizers>
+            <TapGestureRecognizer Tapped="OnPlusTapped" />
+        </Label.GestureRecognizers>
+        </Label>
+
+
+        <Label 
+            x:Name="ResultLabel"
+            TextColor="Black" 
+            FontSize="18"
+            Grid.Row="1" Grid.Column="1"/>
+        </Grid>
+            
+    
+        <!-- Save Button -->
+        <Button Text="SAVE"
+                FontSize="18"
+                BackgroundColor="#2b4d15"
+                WidthRequest="120"
+                CornerRadius="32"
+                Grid.Row="2"
+                HorizontalOptions="Center"
+                VerticalOptions="End"
+                Margin="0,50,0,50"
+                Clicked="OnSaveClicked" />
+
+    </Grid>
+</ContentPage>

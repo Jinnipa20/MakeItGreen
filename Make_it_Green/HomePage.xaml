@@ -7,21 +7,50 @@
         <!-- Background Image -->
         <Image Source="home_bg.png" Aspect="AspectFill" />
     
-
         <!-- Button Layout -->
-        <Grid >
+        <Grid RowSpacing="0" ColumnSpacing="10" Margin="10,340,10,100">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="110"/>
+                <RowDefinition Height="100"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+      
+             <ImageButton 
+                Source="plastics_button.png"
+                HeightRequest="200"
+                Margin="0"
+                Grid.Row="0" Grid.Column="0"
+                Clicked="OnPlasticsClicked"/>
             <ImageButton 
-                Source="plastics_button.png"/>
-            <ImageButton 
-                Source="metals_button.png"/>
+                Source="metals_button.png"
+                HeightRequest="200"
+                Margin="1"
+                Grid.Row="0" Grid.Column="1"
+                Clicked="OnMetalsClicked"/>
             <ImageButton Source="glass_button.png"
-                          />
+                HeightRequest="200"
+                Margin="2"
+                Grid.Row="0" Grid.Column="2"
+                Clicked="OnGlassClicked"/>
             <ImageButton Source="electronics_button.png"
-                         />
+                HeightRequest="200"
+                Margin="0,100,0,50"
+                Grid.Row="1" Grid.Column="0"
+                Clicked="OnElectronicsClicked"/>
             <ImageButton Source="textiles_button.png"
-                          />
+                HeightRequest="200"
+                Margin="1,100,0,50"
+                Grid.Row="1" Grid.Column="1"
+                Clicked="OnTextilesClicked"/>
             <ImageButton Source="paper_button.png"
-                          />
+                HeightRequest="200"
+                Margin="2,100,0,50"
+                Grid.Row="1" Grid.Column="2"
+                Clicked="OnPaperClicked"/>
         </Grid>
     </Grid>
 </ContentPage>
