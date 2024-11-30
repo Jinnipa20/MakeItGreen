@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Make_it_Green.ViewModels"
+             x:Class="Make_it_Green.GarbageListPage"
+             Title="GarbageListPage">
+
+    <ContentPage.BindingContext>
+        <local:GarbageListViewModel />
+    </ContentPage.BindingContext>
+
+
+    <Grid>
+
+    <!-- Background Image covering the entire page -->
+        <Image Source="garbagelist_bg.png" Aspect="AspectFill" />
+
+    <StackLayout Padding="20">
+        <Label Text="Garbage List"
+               FontSize="24"
+               HorizontalOptions="Center"
+               Margin="0,0,0,20"/>
+
+        <!-- CollectionView for displaying data -->
+        <CollectionView ItemsSource="{Binding AllGarbageData}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Grid ColumnDefinitions="*,*,*"
+                          Padding="10"
+                          Margin="0,5,0,5"
+                          BackgroundColor="#F3F4F6">
+                          
+                        <!-- Type Column -->
+                        <Label Grid.Column="0"
+                               Text="{Binding Type}"
+                               VerticalTextAlignment="Center"
+                               FontSize="16"/>
+
+                        <!-- Weight Column -->
+                        <Label Grid.Column="1"
+                               Text="{Binding Weight}"
+                               VerticalTextAlignment="Center"
+                               FontSize="16"
+                               HorizontalTextAlignment="Center"/>
+
+                        <!-- Price Column -->
+                        <Label Grid.Column="2"
+                               Text="{Binding Price}"
+                               VerticalTextAlignment="Center"
+                               FontSize="16"
+                               HorizontalTextAlignment="End"/>
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </StackLayout>
+
+
+        <Label Text="Add Order"
+               FontSize="16"
+               TextDecorations="Underline"
+               TextColor="#FF4848FF"
+               HorizontalOptions="Center"
+               VerticalOptions="End"
+               Margin="280,50,0,195">
+            <!-- TapGestureRecognizer to handle tap event -->
+            <Label.GestureRecognizers>
+                <TapGestureRecognizer Tapped="OnLabelTapped"/>
+            </Label.GestureRecognizers>
+        </Label>
+
+
+       
+
+       <!--เพิ่มปุ่ม SUBMIT-->
+       <Button 
+                Text="SUBMIT" 
+                FontSize="16"
+                FontFamily="CloudSoftBold"
+                TextColor="White" 
+                BackgroundColor="#FF236F23" 
+                Margin="0,620,0,0" 
+                CornerRadius="40"
+                WidthRequest="150"
+                HeightRequest="40"
+                Clicked="OnSubmitClicked">
+       </Button>
+        
+    </Grid>
+</ContentPage>

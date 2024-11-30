@@ -39,6 +39,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = Make_it_Green.ElectronicPa
 build_metadata.AdditionalFiles.TargetPath = ElectronicPage.xaml
 build_metadata.AdditionalFiles.RelativePath = ElectronicPage.xaml
 
+[D:/DX212/Make_it_Green/Make_it_Green/GarbageListPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Make_it_Green.GarbageListPage.xaml
+build_metadata.AdditionalFiles.TargetPath = GarbageListPage.xaml
+build_metadata.AdditionalFiles.RelativePath = GarbageListPage.xaml
+
 [D:/DX212/Make_it_Green/Make_it_Green/GlassPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Make_it_Green.GlassPage.xaml

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Make_it_Green.ViewModels"
              x:Class="Make_it_Green.TextilePage"
              Title="TextilePage">
     <Grid>
@@ -24,21 +25,17 @@
                 FontSize="36"
                 TextColor="Black"
                 FontFamily="CloudSoftBold"
-                Grid.Row="0" Grid.Column="0"
-                >
-            <!-- TapGestureRecognizer to handle tap event -->
+                Grid.Row="0" Grid.Column="0">
             <Label.GestureRecognizers>
-                <TapGestureRecognizer Tapped="OnMinusTapped" />
-            </Label.GestureRecognizers>
-        </Label>
+                    <TapGestureRecognizer Command="{Binding DecreaseWeightCommand}" />
+                </Label.GestureRecognizers>
+            </Label>
 
             <!-- แสดงค่าปัจจุบัน -->
-            <Label 
-                Text="0" 
-                FontSize="18"
-                x:Name="StepperWeightLabel"
-                Grid.Row="0" Grid.Column="1"
-                VerticalTextAlignment="Start"/> 
+            <Label Text="{Binding CurrentGarbageData.Weight, StringFormat='{}{0:F2}'}"
+                   FontSize="18"
+                   Grid.Row="0" Grid.Column="1"
+                   HorizontalTextAlignment="Center" /> 
 
     <!-- ปุ่มบวก -->
         <Label Text="+"
@@ -46,24 +43,23 @@
                FontFamily="CloudSoftBold"
                TextColor="Black"
                Grid.Row="0" Grid.Column="2">
-               
-        <!-- TapGestureRecognizer to handle tap event -->
-        <Label.GestureRecognizers>
-            <TapGestureRecognizer Tapped="OnPlusTapped" />
-        </Label.GestureRecognizers>
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding IncreaseWeightCommand}" />
+                </Label.GestureRecognizers>
         </Label>
 
 
         <Label 
-            x:Name="ResultLabel"
-            TextColor="Black" 
+            Text="{Binding CalculatedPrice, StringFormat='{0:F2} THB'}"
             FontSize="18"
-            Grid.Row="1" Grid.Column="1"/>
+            Grid.Row="1" Grid.Column="1"
+            HorizontalTextAlignment="Center" />
         </Grid>
             
     
         <!-- Save Button -->
         <Button Text="SAVE"
+                Command="{Binding AddOrUpdateCommand}"
                 FontSize="18"
                 BackgroundColor="#2b4d15"
                 WidthRequest="120"
