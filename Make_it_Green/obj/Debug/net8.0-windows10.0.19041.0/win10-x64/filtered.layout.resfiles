@@ -53,17 +53,21 @@ dotnet_bot.scale-125.png
 dotnet_bot.scale-150.png
 dotnet_bot.scale-200.png
 dotnet_bot.scale-400.png
+electronics_bg.scale-100.png
 electronics_button.scale-100.png
 garbagelist_bg.scale-100.png
+glass_bg.scale-100.png
 glass_button.scale-100.png
 home_bg.scale-100.png
 login_bg.scale-100.png
 logo.scale-100.png
+metals_bg.scale-100.png
 metals_button.scale-100.png
 paper_bg.scale-100.png
 paper_button.scale-100.png
 plastics_bg.scale-100.png
 plastics_button.scale-100.png
+textiles_bg.scale-100.png
 textiles_button.scale-100.png
 splashSplashScreen.scale-100.png
 splashSplashScreen.scale-125.png
@@ -71,3 +75,4 @@ splashSplashScreen.scale-150.png
 splashSplashScreen.scale-200.png
 splashSplashScreen.scale-400.png
 AboutAssets.txt
+make-it-green-e30d2-firebase-adminsdk-dflto-56faa57712.json

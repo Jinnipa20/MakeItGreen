@@ -17,7 +17,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Make_it_Green")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+b0be25b09badd3508436222a6b803b1361d8620d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+b860d38ea4a1a2a2231a6829e437ac259f60ff13")]
 [assembly: System.Reflection.AssemblyProductAttribute("Make_it_Green")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Make_it_Green")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

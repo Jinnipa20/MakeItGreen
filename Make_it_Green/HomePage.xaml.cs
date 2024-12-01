@@ -16,37 +16,31 @@ public partial class HomePage : ContentPage
     private async void OnPlasticsClicked(object sender, EventArgs e)
     {
         // Plastics
-        var firestoreService = new FirestoreService(); // หรือใช้ออบเจ็กต์ที่มีอยู่แล้ว
-        await Navigation.PushAsync(new PlasticPage(firestoreService));
+        await Navigation.PushAsync(new TypePage("Plastics"));
     }
  private async void OnMetalsClicked(object sender, EventArgs e)
     {
         // Metals
-        var firestoreService = new FirestoreService();
-        await Navigation.PushAsync(new MetalPage(firestoreService));
+        await Navigation.PushAsync(new TypePage("Metals"));
     }
  private async void OnGlassClicked(object sender, EventArgs e)
     {
         // Glass
-        var firestoreService = new FirestoreService();
-        await Navigation.PushAsync(new GlassPage(firestoreService));
+        await Navigation.PushAsync(new TypePage("Glass"));
     }
     private async void OnElectronicsClicked(object sender, EventArgs e)
     {
         // Electronics
-        var firestoreService = new FirestoreService();
-        await Navigation.PushAsync(new ElectronicPage(firestoreService));
+        await Navigation.PushAsync(new TypePage("Electronics"));
     }
     private async void OnTextilesClicked(object sender, EventArgs e)
     {
         // Textiles
-        var firestoreService = new FirestoreService();
-        await Navigation.PushAsync(new TextilePage(firestoreService));
+        await Navigation.PushAsync(new TypePage("Textiles"));
     }
     private async void OnPaperClicked(object sender, EventArgs e)
     {
         // Paper
-        var firestoreService = new FirestoreService();
-        await Navigation.PushAsync(new PaperPage(firestoreService));
+        await Navigation.PushAsync(new TypePage("Paper & Cardboard"));
     }
 }

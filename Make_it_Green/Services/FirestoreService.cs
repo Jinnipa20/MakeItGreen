@@ -16,7 +16,7 @@ public class FirestoreService
     {
         if (db == null)
         {
-            var stream = await FileSystem.OpenAppPackageFileAsync("make-it-green-e30d2-firebase-adminsdk-dflto-56faa57712.json");
+            var stream = await FileSystem.OpenAppPackageFileAsync("make-it-green-e30d2-firebase-adminsdk-dflto-28237ac1a6.json");
             var reader = new StreamReader(stream);
             var contents = reader.ReadToEnd();
             db = new FirestoreDbBuilder

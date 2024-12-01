@@ -512,3 +512,13 @@ D:\DX212\Make_it_Green\Make_it_Green\bin\Debug\net8.0-windows10.0.19041.0\win10-
 D:\DX212\Make_it_Green\Make_it_Green\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\plastics_bg.scale-100.png
 D:\DX212\Make_it_Green\Make_it_Green\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\plastics_button.scale-100.png
 D:\DX212\Make_it_Green\Make_it_Green\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\textiles_button.scale-100.png
+D:\DX212\Make_it_Green\Make_it_Green\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\make-it-green-e30d2-firebase-adminsdk-dflto-56faa57712.json
+D:\DX212\Make_it_Green\Make_it_Green\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\glass_bg.scale-100.png
+D:\DX212\Make_it_Green\Make_it_Green\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\metals_bg.scale-100.png
+D:\DX212\Make_it_Green\Make_it_Green\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\textiles_bg.scale-100.png
+D:\DX212\Make_it_Green\Make_it_Green\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\electronics_bg.scale-100.png
+D:\DX212\Make_it_Green\Make_it_Green\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\glass_bg.scale-100.png
+D:\DX212\Make_it_Green\Make_it_Green\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\metals_bg.scale-100.png
+D:\DX212\Make_it_Green\Make_it_Green\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\textiles_bg.scale-100.png
+D:\DX212\Make_it_Green\Make_it_Green\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\electronics_bg.scale-100.png
+D:\DX212\Make_it_Green\Make_it_Green\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Make_it_Green.sourcelink.json

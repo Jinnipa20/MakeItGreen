@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:Make_it_Green.ViewModels"
              x:Class="Make_it_Green.GarbageListPage"
              Title="GarbageListPage">
-
-    <ContentPage.BindingContext>
-        <local:GarbageListViewModel />
-    </ContentPage.BindingContext>
-
 
     <Grid>
 
@@ -22,12 +16,12 @@
                Margin="0,0,0,20"/>
 
         <!-- CollectionView for displaying data -->
-        <CollectionView ItemsSource="{Binding AllGarbageData}">
+        <CollectionView x:Name="GabagesCollectionView">
             <CollectionView.ItemTemplate>
                 <DataTemplate>
                     <Grid ColumnDefinitions="*,*,*"
                           Padding="10"
-                          Margin="0,5,0,5"
+                          Margin="0,40,0,5"
                           BackgroundColor="#F3F4F6">
                           
                         <!-- Type Column -->

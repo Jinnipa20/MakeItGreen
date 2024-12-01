@@ -30,23 +30,11 @@ build_metadata.AdditionalFiles.ManifestResourceName = Make_it_Green.AppShell.xam
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[D:/DX212/Make_it_Green/Make_it_Green/ElectronicPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = Make_it_Green.ElectronicPage.xaml
-build_metadata.AdditionalFiles.TargetPath = ElectronicPage.xaml
-build_metadata.AdditionalFiles.RelativePath = ElectronicPage.xaml
-
 [D:/DX212/Make_it_Green/Make_it_Green/GarbageListPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Make_it_Green.GarbageListPage.xaml
 build_metadata.AdditionalFiles.TargetPath = GarbageListPage.xaml
 build_metadata.AdditionalFiles.RelativePath = GarbageListPage.xaml
-
-[D:/DX212/Make_it_Green/Make_it_Green/GlassPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = Make_it_Green.GlassPage.xaml
-build_metadata.AdditionalFiles.TargetPath = GlassPage.xaml
-build_metadata.AdditionalFiles.RelativePath = GlassPage.xaml
 
 [D:/DX212/Make_it_Green/Make_it_Green/HomePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
@@ -66,24 +54,6 @@ build_metadata.AdditionalFiles.ManifestResourceName = Make_it_Green.MainPage.xam
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[D:/DX212/Make_it_Green/Make_it_Green/MetalPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = Make_it_Green.MetalPage.xaml
-build_metadata.AdditionalFiles.TargetPath = MetalPage.xaml
-build_metadata.AdditionalFiles.RelativePath = MetalPage.xaml
-
-[D:/DX212/Make_it_Green/Make_it_Green/PaperPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = Make_it_Green.PaperPage.xaml
-build_metadata.AdditionalFiles.TargetPath = PaperPage.xaml
-build_metadata.AdditionalFiles.RelativePath = PaperPage.xaml
-
-[D:/DX212/Make_it_Green/Make_it_Green/PlasticPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = Make_it_Green.PlasticPage.xaml
-build_metadata.AdditionalFiles.TargetPath = PlasticPage.xaml
-build_metadata.AdditionalFiles.RelativePath = PlasticPage.xaml
-
 [D:/DX212/Make_it_Green/Make_it_Green/RegisterPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Make_it_Green.RegisterPage.xaml
@@ -102,8 +72,8 @@ build_metadata.AdditionalFiles.ManifestResourceName = Make_it_Green.Resources.St
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[D:/DX212/Make_it_Green/Make_it_Green/TextilePage.xaml]
+[D:/DX212/Make_it_Green/Make_it_Green/TypePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = Make_it_Green.TextilePage.xaml
-build_metadata.AdditionalFiles.TargetPath = TextilePage.xaml
-build_metadata.AdditionalFiles.RelativePath = TextilePage.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Make_it_Green.TypePage.xaml
+build_metadata.AdditionalFiles.TargetPath = TypePage.xaml
+build_metadata.AdditionalFiles.RelativePath = TypePage.xaml
